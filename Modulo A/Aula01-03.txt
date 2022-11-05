@@ -1,0 +1,96 @@
+Módulo A: Conhecendo o Javascript
+
+-----------------------------------------------------
+
+Conteúdo do Módulo
+    . O que o JS é capaz de fazer?
+    . Dicas de Aprendizagem
+    . JS vs ECMAScript
+    . Requisitos de Software
+    . Primeiros Scripts em JS
+
+Obrigações
+    (Não pule aulas
+    (Anote tudo
+    (Duas telas
+    (Pratique
+    (Compartilhe conhecimento
+
+-----------------------------------------------------
+
+AULA 01 - O que Javascript é capaz de fazer?
+
+Client x Server
+    Estamos o tempo todo recebendo informações de servidores, a infraestrutura da internet funciona fazendo upload e download de dados entre usuários e servidores.
+
+Tecnologias em Sites usadas por clients
+    Alusão com funcionários de um jornal:
+        . Jornalista  (conteúdo)
+        . Designer    (gráficos)
+        . Programador (engenharia/interações)
+
+        . Jornalista -> HTML
+        . Designer -> CSS
+        . Programador -> Javascript
+
+        HTML: Marcações de hipertexto e elementos
+        CSS: Estilização dos elementos
+        Javascript: Interações com os elementos
+
+    !HTML e CSS não são linguagens de programação, são somente ferramentas usadas em sites!
+
+    Quem usa Javascript?
+        . Praticamente todos na WEB
+
+-----------------------------------------------------
+
+AULA 02 - Como chegamos até aqui?
+Evolução do Javascript na linha do tempo
+
+1970 - Guerra Fria
+Agência tecnológica dos EUA, a DARPA criou uma rede com banco de dados chamada ARPANET, evoluindo até a Internet.
+
+1993 - TBL criou a linguagem HTML e o protocolo HTTP e a World Wide Web (WWW).
+Surgiu um navegador chamado Mosaic.
+
+1994 - Criador da Mosaic e um sócio criaram uma empresa chamada Netscape
+
+1995 - Netscape criou uma linguagem para anexar ao HTML para torná-lo mais dinânico, nascendo assim a linguagem MOCA (baseada na linguagem C) e depois virando Javascript fazendo alusão à linguagem JAVA famosa na época, foi uma jogada de marketing.
+
+Microsoft comprou o Mosaic e aprimorou, batizando-o de Internet Explorer e atribuindo aprimoramentos á linguagem que vinha com o mesmo.
+
+1997 - Netscape cedeu o código do Javascript para a empresa europeia ECMA (padronizadora de patentes) padronizar antes que fosse copiado pela Microsoft.
+Assim, nasce o ECMAScript, a versão padronizada do Javascript.
+
+2002 - Netscape faliu mas alguns colaboradores fundaram a Mozilla e desenvolveram o Firefox, que em 2008 rivalizava com o Google Chrome.
+
+2009 - Chrome cria o motor V8 para rodar Javascript com mais eficácia.
+
+2010 - Nasce o Node.js, framework que roda Javascript fora do cliente do navegador, indo para o servidor também.
+
+
+Versões do ECMAScript
+1.0 -> 2.0 -> 3.0 -> ES5 -> ES6 -> ES 2016 -> ES a cada ano seguinte
+
+Tecnologias que nasceram do Javascript
+- jQuery (conjunto de bibliotecas)
+- Angular (framework para gerar páginas web)
+- Node.js
+- React (mesma funcionalidade do Angular, mais flexível)
+- React Native (mobile)
+- Vue (aprimoração do Angular)
+- Electron (interfaces gráficas)
+- Ionic (apps mobile)
+- Cordova
+
+-----------------------------------------------------
+
+AULA 03 - Dando os primeiros passos em JS
+- Somente bate papo sobre crenças limitantes no início do aprendizado de programação, bibliografia e instalação do Google Chrome, Visual Studio Code e NodeJS.
+
+-----------------------------------------------------
+
+AULA 04 - Nossos primeiros scripts
+Modulo A\Aula04
+
+-----------------------------------------------------
