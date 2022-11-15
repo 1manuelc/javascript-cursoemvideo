@@ -1,0 +1,49 @@
+Módulo B: Comandos básicos do Javascript
+
+AULA 05 - Variáveis e tipos primitivos
+
+Anteriormente visto...
+    window.alert('')    -> popup de texto
+    window.confirm('')  -> popup de ok ou cancel
+    window.prompt('')   -> popup de digitar texto
+
+    Mas como guardar essas coisas decididas pelo usuário?
+
+# Comentários em Javascript
+    01. //
+    02. /*  */
+
+# Identificadores de Variáveis
+    - Pode começar com letra, $ ou _
+    - Não pode começar com números
+    - É possível usar acentos e símbolos
+    - Não pode conter espaços e ser palavras reservadas
+    - Capitalização e nomes coerentes devem ser usados a seu favor
+
+# Declaração de Variáveis
+    - var nome = "Gustavo"
+        obs: pode-se delimitar string com aspas simples, duplas ou crase, mas ainda não foi citada a diferença entre essas representações
+    - let nome = "Gustavo"
+
+# Uso do node.js para rodar Javascript fora da web
+    É possível abrir no programa instalado
+    Ou abrir um novo terminal com node.js digitando node e .exit para sair
+    ctrl + l para limpar o terminal
+
+# Tipos de dados
+    - Number: contendo Infinity e NAN, contém todos os tipos possíveis de números
+    - String: cadeias de caracteres
+    - Boolean: true ou false
+    
+    Extras
+        - Null
+        - Undefined
+        - Object
+        - Array
+        - Function
+
+    + typeof nome //'string'
+      typeof 6    //'number'
+    Diz o tipo de dado de algum dado
+
+-----------------------------------------------------
