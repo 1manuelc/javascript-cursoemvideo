@@ -47,3 +47,45 @@ Anteriormente visto...
     Diz o tipo de dado de algum dado
 
 -----------------------------------------------------
+
+AULA 06 - Manipulação de dados
+
+    (number + number faz adição)
+    (string + string concatena)
+
+    Concatenação de variaveis dentro de exibições
+        ('A soma dos valores é ' + num + '!')
+        
+    Concatenação usando template string
+        `O aluno ${varnome} de idade ${idade} tirou a nota ${nota}`
+        ${varnome} se chama placeholder
+
+    Conversão para número pode ser:
+        Number(nomevar)
+        Number.parseInt(nomevar) ou Number.parseFloat(nomevar)
+
+    Conversão para string pode ser:
+        String(nomevar)
+        nomevar.toString()
+
+    Formatando Strings
+        s.length -> diz quantos caracteres a string tem
+        s.toUpperCase() -> tudo p maiúsculas
+        s.toLowerCase() -> tudo p minúsculas
+
+
+    Métodos para conversão numérica
+
+        01. Para definir casas apos o ponto
+            n1.toFixed(2) ----> '1545.50'
+
+        02. Para trocar virgula por ponto
+            n1.toFixed(2).replace('.', ',')
+
+        03. Para trocar para currency (estilo monetário)
+            n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+            n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
+            n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
+
+
+-----------------------------------------------------
