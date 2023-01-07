@@ -1,0 +1,50 @@
+-----------------------------------------------------
+
+AULA 09 - INTRODUÇÃO AO DOM
+    DOM: Document Object Model
+    Modelo de Objetos para Documentos
+
+    - Conjunto de objetos (elementos) que dá acesso aos componentes internos do site
+
+    * Conceito Hierárquico de Parent e child
+        - Se um objeto carrega outros, é pai deles (parent) e os carregados são filhos (child)
+
+    Árvore de Elementos DOM:
+        - Window (Objeto DOM que carrega a janela)
+            - Location (URL e Páginas)
+            - History (Histórico de Navegação)
+            - Document (Documento atual)
+                - HTML (parte HTML do site)
+                    - Head (child de HTML)
+                        - Meta
+                        - Title
+                    - Body (child de HTML)
+                        - h1
+                        - p
+                        - p
+                            - strong
+                        - div
+    
+    Como acessar elementos DOM:
+        window.document.(...) ou document.(...)
+
+    * por Marca (ou Tag)
+        getElementsByTagName('p') [+ de 1 objeto] (pode selecionar por colchete de numeração)
+
+    * por ID <id='algumacoisa'...\>
+        getElementById('algumacoisa')
+
+    * por Nome <name='algumacoisa'...\>
+        getElementsByName('algumacoisa') [+ de 1 objeto] (pode selecionar por colchete de numeração)
+
+    * por Classe <class='algumacoisa'...\>
+        getElementsByClassName('algumacoisa') [+ de 1 objeto] (pode selecionar por colchete de numeração)
+
+    * por Seletor - método mais recente
+        querySelector()
+        querySelectorAll()
+
+        ex. var d = document.querySelector(div#msg)
+
+        id = #
+        class = .

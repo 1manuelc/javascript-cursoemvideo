@@ -86,6 +86,3 @@ AULA 06 - Manipulação de dados
             n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
             n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})
             n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})
-
-
------------------------------------------------------

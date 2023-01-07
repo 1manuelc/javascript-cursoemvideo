@@ -1,0 +1,74 @@
+-----------------------------------------------------
+
+AULA 07 - OPERADORES (PARTE 1)
+
+    Famílias de Operadores da linguagem:
+    - Aritméticos
+    - Atribuição
+    - Relacionais
+    - Lógicos
+    - Ternário
+
+    01. ARTITMÉTICOS
+        Binários (precisam de dois operandos)
+        +   -   *   /   %   **
+        (/) = Divisão Real
+        (%) = Resto da divisão inteira
+        (**) = Potência
+
+        * Precedência de Operadores
+        - ()
+        - **
+        - *   /   %
+        - +   -
+    
+    02. ATRIBUIÇÃO
+        var = "algoaqui"
+        var n = 10
+        n += 10
+        n %= 2
+        n++
+        n--
+
+-----------------------------------------------------
+
+AULA 08 - OPERADORES (PARTE 2)
+
+    03. RELACIONAIS
+        >   <   >=  <=  ==  === !=
+        - Sempre para expressões com operadores relacionais, o resultado é booleano (true ou false)
+        - Quando existem operadores aritméticos em expressões com relacionais, os aritméticos são resolvidos primeiro
+
+        (==) Igual
+        5 == 5   -> true
+        5 == '5' -> true
+        * Javascript analisa o valor, e não o tipo
+
+        (===) Igualdade Restrita ou Idêntica
+        5 === '5' -> false
+        * Javascript analisa o valor e o tipo
+
+        (!==) Desigualdade Restrita ou Idêntica
+        5 !== '5' -> true
+        * Javascript analisa o valor e o tipo
+
+        Relacionais não têm precedência, são resolvidos da esquerda pra direita
+
+    04. LÓGICOS
+        !   &&  ||
+
+        (!) Negação
+        (&&) E lógico
+        (||) OU lógico
+
+        * Precedência Global
+            Aritméticos
+            Relacionais
+            !
+            &&
+            ||
+
+    05. TERNÁRIO (3 operandos)
+        teste ? true : false
+        
+        ex. var status = (média >= 7.0) ? "Aprovado" : "Reprovado"
