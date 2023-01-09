@@ -1,0 +1,74 @@
+-----------------------------------------------------
+
+AULA 09 - EVENTOS DOM
+    Evento se trata de qualquer coisa que o usuário possa interagir dentro do site
+
+    ps: podem ser inseridos tanto na parte HTML quanto na do JavaScript
+
+    p.ex.Eventos de Mouse
+    - mouseenter: mouse dentro de um objeto
+    - mouseout: mouse fora do objeto
+    - mousemove: mouse movendo
+    - mousedown: mouse segurado
+    - mouseup: mouse release
+    - click:
+
+    mais eventos: https://developer.mozilla.org/en-US/docs/Web/Events
+
+    
+    * Eventos são baseados em funções que são executadas somente quando o evento ocorrer.
+
+        Funções ficam entre blocos
+
+        function nomedaacao(param){
+
+        }
+
+    ** Como adicionar os eventos via HTML-JavaScript
+    
+        <div id="area" onclick="clicar()" onmouseenter="entrou()" onmouseout="saiu()">
+            Clique
+        </div>
+
+        <script>
+            var area = document.getElementById('area')
+
+            function clicar(){
+                area.innerText = 'Clicou!'
+                area.style.background = 'blue'
+            }
+
+            function entrou() {
+                area.innerText = 'Entrou!'
+                area.style.background = 'green'
+            }
+
+            function saiu() {
+                area.innerText = 'Saiu!'
+                area.style.background = 'red'
+            }
+        </script>
+
+    ** Via JavaScript unicamente
+        <script>
+            var area = document.getElementById('area')
+
+            area.addEventListener('click', clicar)
+            area.addEventListener('mouseenter', entrar)
+            area.addEventListener('mouseout', sair)
+
+            function clicar(){
+                area.innerText = 'Clicou!'
+                area.style.background = 'blue'
+            }
+
+            function entrou() {
+                area.innerText = 'Entrou!'
+                area.style.background = 'green'
+            }
+
+            function saiu() {
+                area.innerText = 'Saiu!'
+                area.style.background = 'red'
+            }
+        </script>
