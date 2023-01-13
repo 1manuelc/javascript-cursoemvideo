@@ -1,0 +1,11 @@
+-----------------------------------------------------
+
+AULA 11 - CONDIÇÕES (PARTE 1)
+    Deve-se atentar ao fluxo de código, as condições são justamente para limitar "caminhos" para o usuário
+    * Desvio condicional
+
+    if(condição/ões) {
+        [bloco executado caso a condição seja verdadeira]
+    } else {
+        [bloco executado caso a condição seja falsa]
+    }
