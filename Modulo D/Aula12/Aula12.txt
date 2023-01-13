@@ -1,0 +1,36 @@
+-----------------------------------------------------
+
+AULA 12 - CONDIÇÕES (PARTE 2)
+    
+    * Condições aninhadas
+
+        if(cond1) {
+
+        } else {
+            if(cond2) {
+
+            } else {
+                
+            }
+        }
+
+
+    [EXTRA] Como pegar horas do sistema:
+            var agora = new Date();
+            var horas = agora.getHours();
+            var min = agora.getMinutes();
+
+
+    * Expressão de condições múltiplas
+
+        switch(expressão) {
+            case valor1:
+                break;
+            case valor2:
+                break;
+            default:
+                break;
+        }
+
+    - IF para testar entre intervalos
+    - SWITCH para valores pontuais
