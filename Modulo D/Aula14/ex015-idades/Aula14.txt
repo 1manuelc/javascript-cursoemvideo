@@ -1,0 +1,47 @@
+-----------------------------------------------------
+
+AULA 14 - ANOTAÇÕES
+
+
+    Input de tipo Radio: Seletor onde se pode marcar só um
+        - nome deve ser igual para ter a propriedade
+        - label dá uma descrição para cada um
+        - checked diz qual vem selecionado por padrão
+
+        Sexo:
+            <input type="radio" name="radsex" id="mas" checked />
+            <label for="masc">Masculino</label>
+
+            <input type="radio" name="radsex" id="fem" />
+            <label for="fem">Feminino</label>
+
+        Para recuperar o resultado no JS
+        var fsex = document.getElementsByName("radsex")
+
+        if(fsex[0].checked) -> 0 na respectiva ordem das caixas
+        if(fsex[1].checked) -> 0 na respectiva ordem das caixas
+
+
+    
+    Novos atributos no input de tipo number
+        <input type="number" id="ano-nasc" min="0" max="100" />
+
+
+    Criando elementos no HTML diretamente no JS
+        var img = document.createElement('img')
+        img.setAttribute('id', 'foto')
+
+        é o mesmo de <img id="foto"> sem o src, foi definido mais tarde por condições
+
+        img.setAttribute('src', 'sources/foto-bebe-m')
+        img.setAttribute('alt', 'foto-bebe-m')
+
+        é o mesmo de <img src="sources/foto-bebe-m" id="foto" alt="foto-bebe-m">
+
+
+    Colocando o elemento no HTML diretamente pelo JS (em uma posição já definida por variável)
+        var res = document.querySelector("div#res")
+
+        res.appendChild(img)
+
+        -> img vai ser um Child de res (vai estar contido em res)
