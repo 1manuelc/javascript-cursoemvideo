@@ -1,0 +1,17 @@
+////////////////////////////////////////////////////////
+
+AULA 14 - ESTRUTURAS DE REPETIÇÃO (PARTE II)
+
+    * FOR (PARA)
+        - Estrutura de repetição por variável de controle (contador)
+
+        for(inicio; condicao; incremento) {
+            bloco a ser executado
+        }
+
+        for(var i = 1; i <= 10; i++) {
+            console.log(`${i}`)
+        }
+
+        ! Vale lembrar que o for executa a primeira iteração sem incrementar o valor do contador
+        ! Debug ajuda muito em problemas com FOR

@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+body {
+    font: normal 15pt arial;
+    background: rgb(8, 24, 51);
+}
+
+*.seletores {
+    margin-left: 2vw;
+}
+
+section {
+    align-items: left;
+    background: white;
+    width: 500px;
+    padding: 2vh;
+    border-radius: 0.5rem;
+    margin: auto;
+}
+
+div#res {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

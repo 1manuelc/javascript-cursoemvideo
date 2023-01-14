@@ -1,0 +1,25 @@
+////////////////////////////////////////////////////////
+
+AULA 13 - ESTRUTURAS DE REPETIÇÃO (PARTE I)
+
+    * Repetições aka laços
+    - Repetições são usadas para tarefas que dependem de atingir uma condição para parar (ao atingir um objetivo)
+    - Essa sequência deve ser logicamente premeditada para não haver loop e satisfazer seu objetivo
+
+
+    * WHILE (ENQUANTO)
+
+        while(condição) {
+            bloco de execução (executado enquanto a condição for verdadeira)
+        }
+
+        function comerPizza() {
+            while(temFatia() == true)
+                comerFatia()
+        }
+
+    
+    * DO-WHILE (FAÇA ENQUANTO)
+        Mesma coisa do While, o que muda é a ordem da verificação
+
+        Enquanto no While a verificação vem antes do bloco, no Do-While a verificação ocorre após a primeira execução do bloco
