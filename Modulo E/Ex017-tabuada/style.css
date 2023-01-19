@@ -1,18 +1,17 @@
 h1 {
-    text-align: center;
     color: white;
 }
 
 body {
+    text-align: center;
     font: normal 15pt arial;
     background: rgb(8, 24, 51);
 }
 
 section {
-    align-items: left;
     background: white;
     width: 500px;
-    padding: 2vh;
+    padding: 5vh;
     border-radius: 0.5rem;
     margin: auto;
 }
