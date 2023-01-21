@@ -1,0 +1,22 @@
+////////////////////////////////////////////////////////
+
+AULA 15 - VARIÁVEIS COMPOSTAS (ARRAYS)
+    Vetores são um tipo especial de variável que carrega mais de um dado N vezes
+
+    Sua declaração em JS não se refere a quantidade de espaços, e sim já os próprios elementos em sim
+
+    ex. let num = [5]
+        let num = [5, 8, 4]
+
+    Métodos e atributos internos para arrays:
+        * num.push(elemento)  -> coloca um elemento no final do array
+        * num.length          -> retorna o comprimento do array
+        * num.sort()          -> ordena os elementos de forma crescente
+
+        * for simplificado para arrays e objetos
+            for(var i in vetor)
+
+        * num.indexOf(7)      -> procura uma ocorrencia de 7 no vetor
+            - se achar retorna a posição do elemento
+            - senão, retorna -1 (essa posição não existe)
+
