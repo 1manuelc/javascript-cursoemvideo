@@ -7,6 +7,10 @@ p#num {
     text-align: left;
 }
 
+select#seltab {
+    width: 150px;
+}
+
 body {
     font: normal 15pt arial;
     background: rgb(8, 24, 51);

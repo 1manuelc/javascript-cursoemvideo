@@ -1,7 +1,5 @@
-let num = [5, 8, 2, 9]
+let num = []
 
-num.push(7)
-num.push(1)
 num.sort()
 
 // Forma padrao de exibir um vetor

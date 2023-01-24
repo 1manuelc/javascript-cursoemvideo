@@ -1,0 +1,34 @@
+////////////////////////////////////////////////////////
+
+AULA 17 - PRÓXIMOS PASSOS
+
+    O que vimos?
+        - Fundamentos
+        - Variáveis e dados
+        - Operadores
+        - Condições
+        - Repetições
+        - Arrays
+        - Functions
+        - DOM
+
+    Quais são os próximos passos?
+        - Functions
+        - Objetos + Classes
+        - Modularização
+        - RegEx
+        - JSON
+        - AJAX
+        - NodeJS
+        - Frameworks
+
+    * Introdução a Objetos
+        Objeto é como um array, uma variável especial dividido em partes, mas com campos/atributos preenchíveis
+
+        Array:
+            let num = [2,4,5]
+        
+        Objeto:
+            let amigo = {nome:'José', sexo:'M', peso:85.4, engordar(p){}}
+
+            Objetos carregam atributos e métodos (funções) próprios
